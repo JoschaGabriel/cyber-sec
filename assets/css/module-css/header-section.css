@@ -21,7 +21,8 @@
     left: 0px;
     width: 100%;
     padding: 0px 0px;
-    background: rgba(255, 255, 255, 0.98);
+    background: rgba(0, 47, 108, 0.95);
+    backdrop-filter: blur(10px);
     opacity: 0;
     visibility: hidden;
     transition: all 500ms ease;
@@ -80,22 +81,22 @@
 }
 
 .sticky-header .main-menu .navigation>li {
-    margin-right: 35px;
+    margin-right: 20px;
 }
 
 .sticky-header .main-menu .navigation>li>a {
-    color: var(--thm-black);
+    color: var(--thm-primary);
     padding: 40px 0px 40px;
 }
 
 .sticky-header .main-menu .navigation>li:hover>a,
 .sticky-header .main-menu .navigation>li.current>a {
-    color: var(--thm-base);
+    color: var(--thm-grey);
 }
 
 .main-menu .navigation.scroll-nav>li:hover>a,
 .main-menu .navigation.scroll-nav>li.current>a {
-    color: var(--thm-base);
+    color: var(--thm-grey);
 }
 
 
@@ -175,7 +176,7 @@
     position: inherit;
     display: inline-block;
     float: left;
-    margin-right: 60px;
+    margin-right: 25px;
 }
 
 .main-menu .navigation>li:last-child {
@@ -187,7 +188,7 @@
     display: flex;
     align-items: center;
     padding: 42px 0px 43px;
-    color: #ffffff;
+    color: #818891;
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
@@ -734,7 +735,7 @@
 .phone-number-box1 .phone a {
     position: relative;
     display: inline-block;
-    color: #ffffff;
+    color: #818891;
     font-size: 18px;
     line-height: 20px;
     font-weight: 500;

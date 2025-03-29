@@ -415,13 +415,13 @@ if ($('.banner-carousel').length) {
     $('.banner-carousel').owlCarousel({
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        loop: true,
+        loop: false,
         margin: 0,
         dots: true,
-        nav: true,
+        nav: false,
         singleItem: true,
         smartSpeed: 500,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 9000,
         navText: ['<span class="icon-right-arrow"></span>', '<span class="icon-right-arrow right"></span>'],
         responsive: {
