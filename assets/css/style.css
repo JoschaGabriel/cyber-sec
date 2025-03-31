@@ -287,7 +287,7 @@ li {
     transform: translateX(100%);
     webkit-transition-duration: 800ms;
     transition-duration: 800ms;
-    background-color: var(--thm-black);
+    background-color: #07142290;
     z-index: 2;
 }
 
@@ -2458,7 +2458,7 @@ select:focus {
 .case-stories-area {
     position: relative;
     display: block;
-    background: #ffffff;
+    background: #EFF7F8;
     padding: 120px 0px 90px;
     z-index: 10;
 }
@@ -2773,7 +2773,7 @@ select:focus {
 .slogan-style2-area {
     position: relative;
     display: block;
-    background: #ffffff;
+    background: #EFF7F8;
     z-index: 10;
 }
 

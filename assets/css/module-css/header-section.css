@@ -68,7 +68,7 @@
 .sticky-header .logo {
     position: relative;
     display: block;
-    padding: 33px 0 33px;
+    padding: 25px 0 25px;
 }
 
 .sticky-header .logo a {
@@ -86,7 +86,7 @@
 
 .sticky-header .main-menu .navigation>li>a {
     color: var(--thm-primary);
-    padding: 40px 0px 40px;
+    padding: 35px 0px 25px;
 }
 
 .sticky-header .main-menu .navigation>li:hover>a,
